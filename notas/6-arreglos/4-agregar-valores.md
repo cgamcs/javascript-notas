@@ -23,3 +23,7 @@ Eso haria que el arreglo cambia a `['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'
 **NOTA**
 
 En otros lenguajes si agregar el valor en un indice que no existe te agrega los indices faltantes en blanco, javascript no, lo que hace es solo dejar pasar los indices y agregar el valor en el indice que escribiste.
+
+### Agregar con Array Methods
+
+Si agregamos un elemento al arreglo con un indice eso dependera de que conozcamos la longitud del arreglo, para hacer de una forma mas dinamica utilizamos arreay methos en especifico uno conocido como `.push()` su sintaxis para agrerar un elemento seria la siguiente: `meses.push('Julio')`
