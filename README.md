@@ -1,4 +1,6 @@
-## Variables con var
+# Introducción
+
+### Variables con var
 
 Var era la forma de escribir las variables en versiones anteriores de ECMAScript hoy en día las opciones se reducen a dos let y const.
 
@@ -66,7 +68,7 @@ var nombre_producto_categoria;
 var NombreProducto;
 ```
 
-## Variables con let
+### Variables con let
 
 Var era la forma de escribir las variables en versiones anteriores de ECMAScript hot en día las opciones se reducen a dos **let y const**, las reglas siguen siendo las mismas sin embargo de hoy en adelante se recomienda usar let y const, aunque si buscas ejemplos de JavaScript lo mas seguro es que utilicen var.
 
@@ -95,7 +97,7 @@ let precio;
 
 Mas que nada la diferencia entre var y let es lo que se le conoce el **scope** (alcance que tendrá tu código) de la variables.
 
-## Variables con const
+### Variables con const
 
 La tercer forma de construir variables se le conoce como const y existen muy pocas diferencias entre let y const, las reglas para crear variables también aplican para let y const.
 
