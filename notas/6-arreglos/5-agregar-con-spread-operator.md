@@ -2,8 +2,6 @@
 
 En las nuevas versiones de javascript se agregaron algunas funciones que digamos hacen los mismo, unas se les conoce como declarativas y otras como formas imperativas, la forma imperativa son con los metodos **push** y **unshift** al agregar los elementos sobre ese mismo arreglo, es decir, modificamos la variable original. Cuando fue la gran actualizacion de javascript se agregaron las funciones declarativa, la forma declarativa es un paradigma que explica la logica sin describir tanto el flujo de control.
 
-![arreglos](../../img/arreglos(13).png)
-
 Para entederlo mejor en la forma declarativa vamos agregando elementos realizando copias de la variable original.
 
 ``` Javascript
@@ -40,7 +38,11 @@ let resultado
 
 resultado = [...carrito, producto] // Esto crea una copia de carrito y agrega el objeto de producto
 
-resultado = [...resultado, producto2] // Asi agregamos mas elementos al carrito
+// Asi agregamos mas elementos al carrito
+resultado = [...resultado, producto2]
 
-resultado = [producto3, ...resultado] // De esta forma podemos hacer lo mismo que unshift, agregar un elemento al principio del arreglo
+// De esta forma podemos hacer lo mismo que unshift, agregar un elemento al principio del arreglo
+resultado = [producto3, ...resultado]
 ```
+
+![arreglos](../../img/arreglos(13).png)
