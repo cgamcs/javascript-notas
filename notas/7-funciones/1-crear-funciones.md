@@ -57,5 +57,9 @@ const sumar2
 sumar2()
 ```
 
+**NOTA**
+
+En javascript tambien existen funciones nativas como: `alert()`, `prompt()`, `parseInt()`, etc.
+
 
 
