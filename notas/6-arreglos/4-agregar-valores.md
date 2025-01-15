@@ -26,6 +26,10 @@ En otros lenguajes si agregar el valor en un indice que no existe te agrega los 
 
 ### Agregar con Array Methods
 
-Si agregamos un elemento al arreglo con un indice eso dependera de que conozcamos la longitud del arreglo, para hacer de una forma mas dinamica utilizamos arreay methos en especifico uno conocido como `.push()` su sintaxis para agrerar un elemento seria la siguiente: `meses.push('Julio')`
+Si agregamos un elemento al arreglo con un indice eso dependera de que conozcamos la longitud del arreglo, para hacer de una forma mas dinamica utilizamos array methods en especifico uno conocido como `.push()`, este siempre agrega el elemento al final del arreglo, su sintaxis seria la siguiente: `meses.push('Julio')`
 
 ![arreglos](../../img/arreglos(11).png)
+
+En caso de que queramos agregar un elemento al inicio de nuestro arreglo debemos de usar otro metodo llamado `.unshift()`, al contrario de **push** agrega el elemnto al inicio empujando hacia abajo el elemento anterior.
+
+![arreglos](../../img/arreglos(12).png)
