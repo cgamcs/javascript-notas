@@ -27,3 +27,5 @@ En otros lenguajes si agregar el valor en un indice que no existe te agrega los 
 ### Agregar con Array Methods
 
 Si agregamos un elemento al arreglo con un indice eso dependera de que conozcamos la longitud del arreglo, para hacer de una forma mas dinamica utilizamos arreay methos en especifico uno conocido como `.push()` su sintaxis para agrerar un elemento seria la siguiente: `meses.push('Julio')`
+
+![arreglos](../../img/arreglos(11).png)
