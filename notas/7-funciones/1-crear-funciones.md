@@ -13,13 +13,6 @@ Para crear una funcion se deben de agregar la palabra reservada **function** des
 
 ![funciones](../../img/funciones(1).png)
 
-```Javascript
-// Function declaration 
-function sumar() {
-
-}
-```
-
 Para mandar a llamar una funcion solo es necesario el nombre de la funcion y sus parentesis:
 
 ```Javascript
