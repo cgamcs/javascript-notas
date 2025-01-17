@@ -49,3 +49,60 @@ function limpiandoContenido() {
     console.log('Contenido limpiado')
 }
 ```
+
+### Ejemplos con funciones que se pasan valores
+
+El sumar el contenido de un carrito y ademas calcular el impuesto total es un buen ejemplo para explicar como se pasan valores las funciones
+
+```Javascript
+let total = 0 // Iniciaciamos una variable que empiece en 0
+
+// Agregamos dos funciones una para ir sumando el costo de un producto al carrito
+// y otro para al terminar de sumar el total, agregar el 15% de impuestos
+function agregarCarrito(precio) {
+}
+
+function calcularImpuesto(total) {
+}
+```
+
+En los casos anteriores mostramos la informacion con console log pero si queremos que una funcion retorne un variable tenemos que utilizar **return** y los valores u operaciones que queremos retornar.
+
+```Javascript
+let total = 0
+
+function agregarCarrito(precio) {
+    return total += precio // Suma el precio al total
+}
+
+function calcularImpuesto(total) {
+    return total * 1.15 // Agrega el 15%
+}
+
+// Agregamos los "productos"
+total = agregarCarrito(300)
+total = agregarCarrito(100)
+total = agregarCarrito(500)
+```
+
+Para mostrar el costo total ya con impuestos necesitamos crear una variable mostrando el valor que retorna la funcion de **calcularImpuestos**, se agregar el argumento 'total' por la variable no por el parametro.
+
+```Javascript
+let total = 0
+
+function agregarCarrito(precio) {
+    return total += precio
+}
+
+function calcularImpuesto(total) {
+    return total * 1.15
+}
+
+total = agregarCarrito(300)
+total = agregarCarrito(100)
+total = agregarCarrito(500)
+
+const totalPagar = calcularImpuesto(total)
+
+console.log(`El total a pagar es de $${totalPagar}`)
+```
