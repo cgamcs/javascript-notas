@@ -4,7 +4,7 @@ El método `.filter()` se usa para crear un nuevo arreglo que contiene solo los 
 
 Este método no modifica el arreglo original.
 
-# Sintaxis básica
+## Sintaxis básica
 
 ```Javascript
 array.filter(callback(elementoActual))
