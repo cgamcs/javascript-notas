@@ -1,4 +1,4 @@
-# Método .reduce() en JavaScript
+# Método .reduce()
 
 El método `.reduce()` es muy poderoso y se usa para acumular un valor a partir de los elementos de un arreglo. Sirve para hacer sumas, multiplicaciones, contar, agrupar datos y mucho más.
 
