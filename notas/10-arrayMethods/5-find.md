@@ -1,4 +1,4 @@
-Método .find()
+# Método .find()
 
 El método `.find()` se usa para buscar y devolver el primer elemento de un arreglo que cumple con una condición. Si no encuentra ninguno, retorna `undefined`.
 
